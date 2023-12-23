@@ -12,10 +12,10 @@ class Optin extends Component {
   render() {
     return (
       <div className="optin">
-        <p>CLICK BELOW TO CONTACT US</p>
+        <p style={{color: "black"}}>CLICK BELOW TO CONTACT US</p>
         {/* Use Link component instead of button */}
         <Link to="/ContactUS">
-          <button>CLICK</button>
+          <button style={{color: "black"}}>CLICK</button>
         </Link>
         <div id="modal">
           <div className="wrapper">

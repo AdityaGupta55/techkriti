@@ -1,0 +1,13 @@
+.container {
+    max-height: 950px; 
+    overflow-y: auto;
+  }
+  
+  .col-md-4 {
+    height: 90px; 
+    margin-bottom: 20px;
+  }
+  .centered my-4 mx-auto {
+    color: blue;
+  }
+  

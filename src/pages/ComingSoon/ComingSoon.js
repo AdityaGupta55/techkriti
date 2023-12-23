@@ -7,14 +7,15 @@ import Optin from "../../components/Optin/Optin";
 export default function ComingSoon() {
   return (
     <div className="container">
-    <h1>
-      Website
       <br />
-      Coming Soon
+    <h1 style={{color: 'ivory'}}>
+      Website
     </h1>
-    <Timer />
-    <Optin />
-    <Preloader />
+      <Timer />
+    <h1 style={{color: "ivory"}}>  Coming Soon
+    </h1>
+      <Optin />
+      <Preloader />
   </div>
   )
 }
